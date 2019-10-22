@@ -29,5 +29,4 @@ describe './lib/greeting.rb' do
       # will not be able to remove the \n character at the end of the phrase
       # Strip is being used on the output for this purpose
       expect(output.strip).to eq("Hello Sally. It's nice to meet you.")
-    end
- end
+
