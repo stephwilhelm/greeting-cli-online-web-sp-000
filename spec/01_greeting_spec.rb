@@ -19,4 +19,3 @@ describe './lib/greeting.rb' do
 
       expect(output).to include("Hello Sally. It's nice to meet you.")
     end
-
