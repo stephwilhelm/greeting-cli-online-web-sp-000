@@ -30,3 +30,4 @@ describe './lib/greeting.rb' do
       # Strip is being used on the output for this purpose
       expect(output.strip).to eq("Hello Sally. It's nice to meet you.")
     end
+ end
